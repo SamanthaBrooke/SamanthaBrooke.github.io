@@ -1,6 +1,31 @@
-.box {
-  height:100px;
-  width: 200px;
-  background-color:red;
-  Border: 18px; solid blue;
+.title{font-family: arial;}
+
+.blueheader {
+  color: blue;
 }
+
+.number{border: 1px;
+color: red;
+padding: 2px;}
+
+.number:hover {background-color: red; color:white; }
+
+.footnote {
+  position: fixed;
+  bottom:10px;
+  left:10px;
+  font-family: arial;
+  display:none;
+  color: red;
+}
+
+.footnote.showme{
+  display: block;
+}
+
+.footnote {
+  color: red;
+}
+
+.metahaven.orange { color: orange;
+  transition:2s; }
