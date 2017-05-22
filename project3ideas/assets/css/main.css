@@ -89,6 +89,8 @@ max-width: 100%;
 align-items: center;
 }
 
+.img {mix-blend-mode:multiply;}
+
 .background-size{
   background-size: cover;
 }
