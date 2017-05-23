@@ -1,3 +1,26 @@
+p {
+  margin-bottom: 20px;
+}
+
+
+a {
+  color:black;
+}
+
+.leftpullquote a {
+  color: green;
+}
+
+.image img {
+  display: block;
+  margin-top: 20px;
+  width: 250px;
+}
+
+.image {
+  font-size: 12px;
+}
+
 
 .contents{
   text-align: center;
@@ -30,12 +53,9 @@ font-weight: bold;
 }
 
 .leftpullquote{
-position: fixed;
-left:0;
-top:50;
-width:28%;
-height:100vh;
-margin-left: 150px;
+
+margin-left: 20px;
+margin-bottom: 20px;
 font-style: italic;
 }
 
@@ -109,5 +129,33 @@ background:(left, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,
 
 .big {
   width: 100vw;
-  height:25vw;
+  height:100vw;
+}
+
+.number{
+  border: 1px;
+color: red;
+padding: 2px;
+vertical-align: super,
+ font-size: 50%; }
+
+
+.number:hover {background-color: black; color:white; }
+
+.footnote {
+  position: fixed;
+  bottom:10px;
+  left:10px;
+  font-family: arial;
+  display:none;
+  background-color: black;
+  color: white;
+}
+
+.footnote.showme{
+  display: block;
+}
+
+.footnote {
+  color: red;
 }
