@@ -1,4 +1,16 @@
+.pagenumber_left{
+  position: fixed;
+  left: 290px;
+  bottom: 10px;
+  z-index: 9;
+}
 
+.pagenumber_right{
+  position: fixed;
+  right: 290px;
+  bottom: 10px;
+  z-index: 9;
+}
 
 .arrow_left {
 position:fixed;
@@ -23,14 +35,10 @@ a {
   color:black;
 }
 
-
-
 .image img {
   display: block;
-  width: 330px;
   align-items: center;
   padding-bottom: 10px;
-
 }
 
 .image {
