@@ -14,7 +14,7 @@
 
 .arrow_left {
 position:fixed;
-left:0;
+left:30;
 bottom:0;
 z-index:9;
 }
@@ -140,6 +140,7 @@ font-style: italic;
   margin-left: 50px;
   margin-right: 50px;
 }
+
 
 
 
