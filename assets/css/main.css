@@ -3,6 +3,9 @@
   left: 290px;
   bottom: 10px;
   z-index: 9;
+  font-size: 14px;
+  font-style: normal;
+  font-family: serif;
 }
 
 .pagenumber_right{
@@ -10,6 +13,9 @@
   right: 290px;
   bottom: 10px;
   z-index: 9;
+  font-size: 14px;
+  font-style: normal;
+  font-family: serif;
 }
 
 .arrow_left {
@@ -39,15 +45,15 @@ a {
   display: block;
   align-items: center;
   padding-bottom: 10px;
-  padding-top: 10px;
+  padding-top: 0px;
 }
 
 .image {
   font-size: 12px;
   text-align: left;
+  width:300px;
   font-style: italic;
   font-family: sans-serif;
-
 }
 
 p {
@@ -100,7 +106,6 @@ padding-top:100px;
 }
 
 .leftpullquote{
-
 margin-left: 20px;
 margin-bottom: 20px;
 font-style: italic;
@@ -131,32 +136,9 @@ margin-top: 0px;
 }
 
 .rightpullquote{
-
 margin-left: 20px;
 margin-bottom: 20px;
 font-style: italic;
-}
-
-
-padding-top:220px;
-}
-
-
-h2 {
-  text-transform: uppercase;
-  letter-spacing: 2.5px;
-  font-weight: lighter;
-  text-align: center;
-}
-
-
-h6 {
-  text-transform: uppercase;
-  letter-spacing: 2.5px;
-  font-weight: lighter;
-  text-align: center;
-  font-family: serif;
-
 }
 
 .title{
@@ -214,11 +196,11 @@ background:(left, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,
 }
 
 .number{
-  border: 1px;
+border: 1px;
 color: coral;
 padding: 2px;
 vertical-align: super,
- font-size: 50%; }
+font-size: 50%; }
 
 
 .number:hover {background-color: black; color:white; }
