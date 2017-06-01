@@ -27,6 +27,25 @@ body {
   font-family: serif;
 }
 
+.arrrow_contents a {
+  position:fixed;
+  left:1%;
+  top:2%;
+  z-index:9;
+  border:1px solid #000;
+  padding: 15px;
+  color:coral;
+  background-color: lightgray;
+}
+
+.arrrow_contents a:hover {
+  color:peachpuff;
+  border:1px solid orange;
+  background-color: coral;
+}
+
+
+
 .arrow_left a {
 position:fixed;
 left:0;
